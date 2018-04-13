@@ -11,7 +11,8 @@ angular.module('alurapic', ['MinhasDiretivas','ngAnimate', 'ngRoute'])
    // foto no singular!
 
     $routeProvider.when('/fotos/new', {
-        templateUrl: 'partials/foto.html'
+        templateUrl: 'partials/foto.html',
+        controller: 'FotoController'
     });
 
     $routeProvider.otherwise({redirectTo: '/fotos'});
