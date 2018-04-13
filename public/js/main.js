@@ -1,4 +1,4 @@
-angular.module('alurapic', ['MinhasDiretivas','ngAnimate', 'ngRoute'])
+angular.module('alurapic', ['MinhasDiretivas','ngAnimate', 'ngRoute', 'meusServicos'])
 .config(function($routeProvider, $locationProvider) {
 
     $locationProvider.html5Mode(true);
